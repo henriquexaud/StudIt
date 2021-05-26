@@ -24,13 +24,17 @@ export default {};
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   font-size: 1.5rem;
   text-decoration: none;
-  background-color: rgb(6, 141, 6);
+
+  background-color: darkgreen;
   color: rgb(250, 250, 250);
   padding: 1rem;
   border-radius: 8px;
+  transition-duration: 0.3s;
 }
 
 #button:hover {
-  background-color: darkgreen;
+  background-color: rgb(6, 141, 6);
+  color: rgb(255, 255, 255);
+  font-size: 1.8rem;
 }
 </style>

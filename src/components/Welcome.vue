@@ -1,7 +1,7 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
-    <p>Fique por dentro de tudo.</p>
+    <p>Sua sala de aula no seu bolso.</p>
   </div>
 </template>
 
