@@ -2,7 +2,12 @@
   <div class="hello">
     <h1>{{ msg }}</h1>
     <p>Fique por dentro de tudo.</p>
-    <a href="https://cli.vuejs.org" target="_blank" rel="noopener">Começar</a>
+    <a
+      href="https://www.linkedin.com/in/henrique-xaud-63613216a/"
+      target="_blank"
+      rel="noopener"
+      >Começar</a
+    >
   </div>
 </template>
 
