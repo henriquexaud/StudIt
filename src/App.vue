@@ -1,17 +1,20 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png" />
-    <HelloWorld msg="Bem-vindo ao Studaí" />
+    <img id="logo" alt="Vue logo" src="./assets/logo.png" />
+    <Welcome msg="Bem-vindo ao Studaí" />
+    <Button />
   </div>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
+import Welcome from "./components/Welcome.vue";
+import Button from "./components/Button.vue";
 
 export default {
   name: "App",
   components: {
-    HelloWorld,
+    Welcome,
+    Button,
   },
 };
 </script>
@@ -23,6 +26,11 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  margin-top: 10rem;
+}
+
+#logo {
+  height: 10rem;
+  width: 10rem;
 }
 </style>
