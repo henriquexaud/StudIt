@@ -2,7 +2,9 @@
   <div class="home">
     <img id="logo" alt="Vue logo" src="../assets/logo.png" />
     <Welcome msg="Bem-vindo ao Studaí" />
-    <Button title="Começar" />
+    <a href="/login" style="text-decoration: none">
+      <Button title="Começar" />
+    </a>
   </div>
 </template>
 
@@ -27,7 +29,7 @@ export default {
 }
 
 #logo {
-  margin-top: 13rem;
+  margin-top: 12rem;
   width: 5rem;
   height: 5rem;
 }

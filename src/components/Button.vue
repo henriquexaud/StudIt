@@ -1,6 +1,6 @@
 <template>
   <div id="button-container">
-    <a href="/login" rel="noopener" id="button">{{ title }}</a>
+    <a rel="noopener" id="button">{{ title }}</a>
   </div>
 </template>
 
