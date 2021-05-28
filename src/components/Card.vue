@@ -1,6 +1,6 @@
 <template>
   <div id="card-container">
-    {{ title }}
+    <strong>{{ title }}</strong>
   </div>
 </template>
 
@@ -15,15 +15,16 @@ export default {
 
 <style scoped>
 #card-container {
+  display: flex;
+  flex-direction: column;
   background-color: rgb(228, 222, 222);
-  width: 100px;
-  height: 60px;
   justify-content: center;
   align-items: center;
   text-align: center;
   margin: 10px;
   border-radius: 12px;
-  padding-top: 2.5rem;
+  padding: 1rem;
+  color: #2c3e50;
 }
 
 #card-container:hover {

@@ -21,7 +21,7 @@ export default {
 #button {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   text-decoration: none;
 
   background-color: darkgreen;
@@ -34,6 +34,6 @@ export default {
 #button:hover {
   background-color: rgb(6, 141, 6);
   color: rgb(255, 255, 255);
-  font-size: 1.8rem;
+  font-size: 1.6rem;
 }
 </style>
