@@ -1,23 +1,12 @@
 <template>
   <div id="app">
-    <img id="logo" alt="Vue logo" src="./assets/logo.png" />
-    <Welcome msg="Bem-vindo ao Studaí" />
-    <Button />
+    <!-- <div id="nav">
+      <router-link to="/">Home</router-link> |
+      <router-link to="/login">Login</router-link>
+    </div> -->
+    <router-view />
   </div>
 </template>
-
-<script>
-import Welcome from "./components/Welcome.vue";
-import Button from "./components/Button.vue";
-
-export default {
-  name: "App",
-  components: {
-    Welcome,
-    Button,
-  },
-};
-</script>
 
 <style>
 #app {
@@ -26,11 +15,7 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 10rem;
-}
-
-#logo {
-  height: 10rem;
-  width: 10rem;
+  justify-content: center;
+  align-items: center;
 }
 </style>

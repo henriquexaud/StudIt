@@ -1,17 +1,16 @@
 <template>
   <div id="button-container">
-    <a
-      href="https://www.linkedin.com/in/henrique-xaud-63613216a/"
-      target="_blank"
-      rel="noopener"
-      id="button"
-      >Começar</a
-    >
+    <a href="/login" rel="noopener" id="button">{{ title }}</a>
   </div>
 </template>
 
 <script>
-export default {};
+export default {
+  name: "Button",
+  props: {
+    title: String,
+  },
+};
 </script>
 
 <style scoped>
