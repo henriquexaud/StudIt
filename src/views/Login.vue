@@ -35,6 +35,7 @@ export default {
   border-left: none;
   border-bottom-width: 2px;
   width: "100%";
+  outline: none;
 }
 
 #input:hover {

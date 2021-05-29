@@ -21,7 +21,7 @@ export default {
   justify-content: center;
   align-items: center;
   text-align: center;
-  margin: 10px;
+  margin: 5px;
   border-radius: 12px;
   padding: 1rem;
   color: #2c3e50;
