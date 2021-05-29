@@ -10,7 +10,7 @@
         <img id="logo" alt="Vue logo" src="../assets/logo.png" />
       </header>
       <div id="card-menu">
-        <Card title="Todas" />
+        <Card title="Todas" active />
         <Card title="ALCV-I" />
         <Card title="CDI-II" />
         <Card title="PC-II" />
@@ -28,16 +28,26 @@
         <StudentCard name="Ramon" eng="Civil" />
         <StudentCard name="Rinalda" eng="Produção" />
       </div>
-      <div id="card-menu">
-        <a href="/student" style="text-decoration: none">
-          <Card title="+ Adicionar aluno" />
-        </a>
-        <a href="/student" style="text-decoration: none">
-          <Card title="Provas" />
-        </a>
-        <a href="/student" style="text-decoration: none">
-          <Card title="Conteúdo" />
-        </a>
+      <div id="footer">
+        <div id="card-menu">
+          <a href="/">
+            <img id="arrow" src="@/assets/right-arrow.png" alt="trash" />
+          </a>
+          <a href="/student" style="text-decoration: none">
+            <Card title="+ Adicionar aluno" />
+          </a>
+          <a href="/student" style="text-decoration: none">
+            <Card title="Provas" />
+          </a>
+          <a href="/student" style="text-decoration: none">
+            <Card title="Conteúdo" />
+          </a>
+        </div>
+        <div>
+          <a href="/">
+            <img id="delete" src="@/assets/trash.png" alt="trash" />
+          </a>
+        </div>
       </div>
     </div>
   </div>
@@ -100,5 +110,35 @@ export default {
 #container-students {
   display: grid;
   grid-template-columns: 200px 200px 200px;
+  margin-top: 14px;
+}
+
+#footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+#arrow {
+  width: 20px;
+  height: 20px;
+  margin-top: 0.8rem;
+  margin-right: 1rem;
+  margin-left: 1rem;
+  background-color: darkgrey;
+  border-radius: 12px;
+  padding: 10px;
+}
+
+#delete {
+  width: 30px;
+  height: 30px;
+  padding-top: 25px;
+  padding-right: 30px;
+}
+
+#delete:hover {
+  width: 40px;
+  height: 40px;
+  transition-duration: 0.5s;
 }
 </style>

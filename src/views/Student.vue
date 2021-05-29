@@ -10,7 +10,7 @@
       </header>
       <hr noshade />
       <div id="classes">
-        <ClassCard name="CDI-I" exams="5" />
+        <ClassCard name="CDI-II" exams="5" />
         <ClassCard name="ALCV-I" exams="3" />
         <ClassCard name="PC-II" exams="4" />
       </div>
@@ -28,6 +28,11 @@
         <a href="/main" style="text-decoration: none">
           <Button title="Voltar" />
         </a>
+        <div>
+          <a href="/">
+            <img id="delete" src="@/assets/trash.png" alt="trash" />
+          </a>
+        </div>
       </footer>
     </div>
   </div>
@@ -105,5 +110,23 @@ header div h3 {
   display: flex;
   flex-direction: column;
   margin: 1rem;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+#delete {
+  width: 30px;
+  height: 30px;
+  padding-top: 40px;
+  padding-right: 30px;
+}
+
+#delete:hover {
+  width: 40px;
+  height: 40px;
+  transition-duration: 0.5s;
 }
 </style>
