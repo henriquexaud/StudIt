@@ -121,7 +121,7 @@ export default {
 #arrow {
   width: 20px;
   height: 20px;
-  margin-top: 0.8rem;
+  margin-top: 0.6rem;
   margin-right: 1rem;
   margin-left: 1rem;
   background-color: darkgrey;
