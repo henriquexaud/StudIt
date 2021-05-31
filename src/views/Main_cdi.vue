@@ -12,13 +12,13 @@
         <img id="logo" alt="Vue logo" src="../assets/logo.png" />
       </header>
       <div id="card-menu">
-        <strong id="selected">Todas</strong>
+        <a href="/main" style="text-decoration: none">
+          <Card title="Todas"
+        /></a>
         <a href="/main_alcv" style="text-decoration: none"
           ><Card title="ALCV-I"
         /></a>
-        <a href="/main_cdi" style="text-decoration: none"
-          ><Card title="CDI-II"
-        /></a>
+        <strong id="selected">CDI-II</strong>
         <a href="/main_pc" style="text-decoration: none"
           ><Card title="PC-II"
         /></a>
@@ -29,12 +29,9 @@
         <a href="/student" style="text-decoration: none">
           <StudentCard name="Rebecca" eng="Materiais" />
         </a>
-        <StudentCard name="Rodrigo" eng="Mecânica" />
         <StudentCard name="Rogério" eng="Civil" />
         <StudentCard name="Roberto" eng="Elétrica" />
-        <StudentCard name="Rincon" eng="Mecânica" />
         <StudentCard name="Roberval" eng="Produção" />
-        <StudentCard name="Ronaldo" eng="Mecânica" />
         <StudentCard name="Ramon" eng="Civil" />
         <StudentCard name="Rinalda" eng="Produção" />
       </div>

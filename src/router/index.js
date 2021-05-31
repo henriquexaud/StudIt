@@ -31,9 +31,19 @@ const routes = [
     component: () => import('../views/Student.vue')
   },
   {
-    path: '/test',
-    name: 'Test',
-    component: () => import('../views/TestView.vue')
+    path: '/main_alcv',
+    name: 'Main-AlCV',
+    component: () => import('../views/Main_alcv.vue')
+  },
+  {
+    path: '/main_cdi',
+    name: 'Main-CDI',
+    component: () => import('../views/Main_cdi.vue')
+  },
+  {
+    path: '/main_pc',
+    name: 'Main-PC',
+    component: () => import('../views/Main_pc.vue')
   }
 ]
 

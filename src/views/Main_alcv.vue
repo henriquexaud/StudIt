@@ -12,10 +12,8 @@
         <img id="logo" alt="Vue logo" src="../assets/logo.png" />
       </header>
       <div id="card-menu">
-        <strong id="selected">Todas</strong>
-        <a href="/main_alcv" style="text-decoration: none"
-          ><Card title="ALCV-I"
-        /></a>
+        <a href="/main" style="text-decoration: none"><Card title="Todas" /></a>
+        <strong id="selected">ALCV-I</strong>
         <a href="/main_cdi" style="text-decoration: none"
           ><Card title="CDI-II"
         /></a>
@@ -32,10 +30,6 @@
         <StudentCard name="Rodrigo" eng="Mecânica" />
         <StudentCard name="Rogério" eng="Civil" />
         <StudentCard name="Roberto" eng="Elétrica" />
-        <StudentCard name="Rincon" eng="Mecânica" />
-        <StudentCard name="Roberval" eng="Produção" />
-        <StudentCard name="Ronaldo" eng="Mecânica" />
-        <StudentCard name="Ramon" eng="Civil" />
         <StudentCard name="Rinalda" eng="Produção" />
       </div>
       <div id="footer">
@@ -62,7 +56,7 @@ import Card from "@/components/Card.vue";
 import StudentCard from "@/components/StudentCard.vue";
 
 export default {
-  name: "Main",
+  name: "Main-ALCV",
   components: {
     Card,
     StudentCard,
