@@ -1,0 +1,49 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "name": "Rebecca",
+      "eng": "Materiais"
+    },
+    {
+      "id": 2,
+      "name": "Rodrigo",
+      "eng": "Mecânica"
+    },
+    {
+      "id": 3,
+      "name": "Rinalda",
+      "eng": "Produção"
+    },
+    {
+      "id": 4,
+      "name": "Rincon",
+      "eng": "Civil"
+    },
+    {
+      "id": 5,
+      "name": "Rogério",
+      "eng": "Civil"
+    },
+    {
+      "id": 6,
+      "name": "Roberto",
+      "eng": "Elétrica"
+    },
+    {
+      "id": 7,
+      "name": "Roberval",
+      "eng": "Produção"
+    },
+    {
+      "id": 8,
+      "name": "Ronaldo",
+      "eng": "Mecânica"
+    },
+    {
+      "id": 9,
+      "name": "Ramon",
+      "eng": "Civil"
+    }
+  ]
+}
