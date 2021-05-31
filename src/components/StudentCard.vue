@@ -21,7 +21,7 @@ export default {
   display: flex;
   flex-direction: column;
   width: 150px;
-  background-color: rgb(228, 222, 222);
+  background-color: rgb(240, 236, 236);
   justify-content: space-around;
   align-items: center;
   text-align: center;
@@ -32,7 +32,7 @@ export default {
 }
 
 #studentcard-container:hover {
-  background-color: rgb(155, 231, 145);
+  background-color: rgb(125, 241, 110);
   transition-duration: 0.5s;
   cursor: pointer;
 }

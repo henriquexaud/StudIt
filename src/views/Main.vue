@@ -18,7 +18,9 @@
       </div>
       <hr noshade />
       <div id="container-students">
-        <StudentCard name="Rebecca" eng="Materiais" />
+        <a href="/student" style="text-decoration: none">
+          <StudentCard name="Rebecca" eng="Materiais" />
+        </a>
         <StudentCard name="Rodrigo" eng="Mecânica" />
         <StudentCard name="Rogério" eng="Civil" />
         <StudentCard name="Roberto" eng="Elétrica" />
@@ -30,7 +32,7 @@
       </div>
       <div id="footer">
         <div id="card-menu">
-          <a href="/">
+          <a href="/test">
             <img id="arrow" src="@/assets/right-arrow.png" alt="trash" />
           </a>
           <a href="/student" style="text-decoration: none">
