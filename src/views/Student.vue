@@ -125,8 +125,8 @@ footer {
 }
 
 #delete:hover {
-  width: 40px;
-  height: 40px;
-  transition-duration: 0.5s;
+  width: 35px;
+  height: 35px;
+  transition-duration: 0.3s;
 }
 </style>

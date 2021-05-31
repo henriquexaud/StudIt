@@ -6,7 +6,7 @@
       <header id="header">
         <div id="text">
           <h2 id="bem-vindo">Bem-vindo,</h2>
-          <h2>Prof. Henrique</h2>
+          <h2>Professor</h2>
           <span>Escolha uma turma</span>
         </div>
         <img id="logo" alt="Vue logo" src="../assets/logo.png" />
