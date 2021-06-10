@@ -23,7 +23,6 @@ export default {
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   font-size: 1.4rem;
   text-decoration: none;
-
   background-color: darkgreen;
   color: rgb(250, 250, 250);
   padding: 1rem;

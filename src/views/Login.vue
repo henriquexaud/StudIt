@@ -1,6 +1,6 @@
 <template>
   <div id="login" class="login">
-    <h1>Como podemos chamar você?</h1>
+    <h1>Como podemos te chamar?</h1>
     <input id="input" placeholder="Digite um nome" />
 
     <div>

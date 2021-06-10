@@ -1,5 +1,3 @@
-//Todos screen
-
 <template>
   <div id="container" class="main">
     <div id="main-container">
@@ -50,8 +48,6 @@
 </template>
 
 <script>
-// @ is an alias to /src
-
 import Card from "@/components/Card.vue";
 import StudentCard from "@/components/StudentCard.vue";
 

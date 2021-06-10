@@ -1,5 +1,3 @@
-//Todos screen
-
 <template>
   <div id="container" class="main">
     <div id="main-container">
